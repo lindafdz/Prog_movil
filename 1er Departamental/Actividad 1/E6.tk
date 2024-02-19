@@ -1,0 +1,13 @@
+/**
+6. Ecuación de la pendiente, resolver puntos P1(4,3) P2(-3,-2)
+*/
+fun main() {    
+    var x1 = 4
+    var x2 = -3
+    var y1 = 3
+    var y2 = -2
+    var pendiente = (y2 - y1) / (x2 - x1)
+    println("pendiente = $pendiente")
+}
+
+// valor pendiente = 0.7142857142857143

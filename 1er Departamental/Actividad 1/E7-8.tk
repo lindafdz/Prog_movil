@@ -1,0 +1,23 @@
+/** 
+ * 7.Por que el resultado obtenido difiere del resultado esperado?
+ * porque la división se está haciendo entre numeros enteros 
+ * y redondea el resultado.
+ */
+
+
+/**
+8. Encontrar una solución al error
+*/
+
+fun main() {    
+    var x1 = 4
+    var x2 = -3
+    var y1 = 3
+    var y2 = -2
+    var pendiente = (y2 - y1).toDouble() / (x2 - x1).toDouble()
+    println("pendiente = $pendiente")
+}
+
+// valor pendiente = 0.7142857142857143
+
+
